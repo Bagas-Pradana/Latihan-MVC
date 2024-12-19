@@ -1,0 +1,36 @@
+div.container  {
+    margin: 0 1rem;
+    max-width: 1264px;
+}
+/* NAVBAR */
+div.container-fluid {
+    display: flex;
+}
+div.collapse.navbar-collapse {
+    justify-content: start;
+}
+
+/* CONTENT HEADER */
+div.jumbotron.mt-4.my-auto{
+    text-align: center;
+}
+div h1.display-4 {
+    margin-left: 0.8rem;
+    text-align: left;
+}
+/* IMG */
+div.container-custom {
+    display: flex;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0rem;
+    box-shadow: 1px 4px 17px rgba(0, 0, 0, 0.7) !important;
+    
+}
+img.shadow {
+    position: relative;
+    top: 0px;
+    left: -2px;
+}
